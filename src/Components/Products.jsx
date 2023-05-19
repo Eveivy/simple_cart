@@ -6,7 +6,7 @@ export default function Products() {
   const data = useContext(ProductContext); 
   return (
     <Container fluid className="mt-5 pt-5 bg-cream">
-      <h1 className="fs-2 ps-5 mt-3">Products</h1>
+      <h1 className="fs-2 ps-5 mt-3 font-main">Products</h1>
       <Row className="px-4 py-5 gy-5">
         {data.products.map((product) => (
           <Col xl={3} sm={4} key={product.id}>
@@ -18,7 +18,7 @@ export default function Products() {
                 loading="lazy"
               />
               <div className="overlay rounded-3 d-flex align-items-end justify-content-between py-3 px-2">
-                <div className="">
+                <div className="font-main">
                   <h5 className="text-capitalize">{product.name}</h5>
                   <div className="d-flex align-items-start justify-content-center flex-column">
                     <small>Size: {product.size}</small>

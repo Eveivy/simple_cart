@@ -2,7 +2,7 @@
   font-family: "Neue Machina";
   src: url(/src/assets/PPNeueMachina-PlainUltrabold.otf);
 }
-body{
+.font-main{
   font-family: "Neue Machina" !important;
 }
 .nav-bg {

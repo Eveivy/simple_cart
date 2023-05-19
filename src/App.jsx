@@ -51,9 +51,9 @@ export default function App() {
           fluid
           className="d-flex align-items-center justify-content-between"
         >
-          <span className="text-white fs-3">Boots Store</span>
+          <span className="text-white fs-3 font-main">Boots Store</span>
           <div className="position-relative pointer" onClick={handleShow}>
-            <span className="position-absolute top-0 start-50 translate-middle badge fs-6 text-cream">
+            <span className="position-absolute top-0 start-50 translate-middle badge fs-6 text-cream font-main">
               {cartItems.length}
             </span>
             <span className="fs-4">🛒</span>

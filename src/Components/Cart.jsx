@@ -49,9 +49,9 @@ export default function Cart() {
                       loading="lazy"
                     />
                     <div className="ms-3 d-flex flex-column justify-content-end">
-                      <p className="mb-0">{item.name}</p>
-                      <span>
-                        <span>Size: {item.size}</span>{' '}
+                      <p className="mb-0 font-main">{item.name}</p>
+                      <span className=''>
+                        <span>Size: {item.size}</span>{' | '}
                         <span>Price: &#8358;{item.price.toLocaleString()}</span>{' '}
                       </span>
                     </div>
