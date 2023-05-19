@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Neue Machina";
+  src: url(/src/assets/PPNeueMachina-PlainUltrabold.otf);
+}
+body{
+  font-family: "Neue Machina" !important;
+}
+.nav-bg {
+  background-color: brown;
+}
+.text-cream {
+  color: rgb(255, 253, 208);
+}
+.bg-cream {
+  background-color: rgb(255, 253, 208);
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.btn-brown {
+  background-color: brown !important;
+  border: none;
+  color: white;
+}
+.pointer {
+  cursor: pointer;
+}
